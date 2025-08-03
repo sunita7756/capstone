@@ -1,0 +1,504 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #292E36;
+    height: 30pc;
+    
+}
+/******header-div1**********/
+#header-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+#call{
+    border: 2px solid #E1B168;
+    color: white;
+    width: 222px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#reservation{
+    background-color: #E1B168;
+    padding: 15px 15px 15px 15px;
+    margin-left: 20px;
+    width: 222px;
+    font-size: 20px;
+    height: 68px;
+}
+
+#reservation:hover{
+    background-color: transparent;
+    color: #E1B168;
+    border: #E1B168 1px solid;
+
+}
+
+#cart{
+    display: flex;
+}
+#logo{
+    margin-bottom: 30px;
+}
+/********************************** hover******************* */
+#call:hover{
+    background-color: #E1B168;
+    color: #000;
+    border: white 1px solid;
+}
+
+
+/********header-div2*********/
+#header-div2{
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 81px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: #E1B168;
+    text-decoration: underline;
+}
+
+/* *****************header-div3******************************** */
+#header-div3{
+    height: 10pc;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff8f0;
+    text-align: center;
+}
+#header-div3 h1{
+    margin-top: 68px;
+    font-size: 40px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 190px;
+    margin-left: 43%;
+    font-weight: 500;
+}
+/* ********************SECTION 1*************************** */
+
+.team-section{
+    background-color: white;
+}
+
+.chefs-group img{
+    height: 300px;
+    width: 300px;
+    background-color: #a4b3bb;
+}
+.chef-single{
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.chef-single:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+}
+.chefs-group{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h5-h2{
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-family: serif;
+    font-style: italic;
+}
+
+.h5-h2 h5{
+    border-top: #E1B168 1px solid;
+    border-bottom: #E1B168 1px solid;
+    width: 3rem;
+    margin-left: 50%;
+}
+#first-chefs{
+    margin-bottom: 2rem;
+}
+
+#second-chefs{
+    margin-bottom: 6rem;
+}
+
+.chefs-group h3{
+    line-height: 2rem;
+}
+/* **********************SECTION 2********************************** */
+
+.testimonial-section2{
+    background-color: #292E36;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.testimonial-container{
+    text-align: center;
+    max-width: 700px;
+    padding: 2rem;
+    color: #dcdcdc;
+    position: relative;
+}
+.testimonial-container h5{
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+    width: 120px;
+    border-top: #E1B168 1px solid;
+    border-bottom: #E1B168 1px solid;
+    margin-left: 15pc;
+}
+.testimonial-container h2{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.qoute-icon{
+    margin: 1rem 0;
+}
+.testimonial-text{
+    font-size: 1rem;
+    font-style: italic;
+    color: #ccc;
+    line-height: 1.6;
+}
+.client{
+    margin-top: 2rem;
+}
+.client img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #292E36;
+    object-fit: cover;
+    object-position: top 100px;
+    object-position: center 12%;
+}
+.qoute-wrapper img{
+    position: absolute;
+    left: 44%;
+    transform: translateY(-44%);
+    max-width: 33px;
+    max-height: 33px;
+}
+.client-name{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+.client-role{
+    font-size: 0.9rem;
+    color: #E1B168;
+    margin-top: 6px;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    font-size: 1.8rem;
+    color: #E1B168;
+    font-weight: 200;
+    cursor: pointer;
+    user-select: none;
+    opacity: 1;
+
+}
+.arrow.left{
+    left: -60px;
+}
+.arrow.right{
+    right: -60px;
+}
+
+@media (max-width:600px) {
+    .arrow.left{
+        left: 10px;
+    }
+    .arrow.right{
+        right: 10px;
+    }
+}
+
+/* ------------SECTION 3------------- */
+
+.skills-section{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: auto;
+    background-color: white;
+}
+/* --------Skills---------- */
+
+.skills{
+    margin-bottom: 30px;
+}
+.skill{
+    margin-bottom: 20px;
+}
+.skill label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+.progress{
+    background-color: #eee;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+.bar{
+    height: 100%;
+    width: 0;
+    background-color: #222;
+    border-radius: 3px;
+    animation: fillBar 2s forwards;
+    animation-delay: 0.2s;
+}
+.progress:nth-child(1) .bar{
+    animation-delay: 0.2s;
+}
+.progress:nth-child(2) .bar{
+    animation-delay: 0.4s;
+}
+.progress:nth-child(3) .bar{
+    animation-delay: 0.6s;
+}
+
+@keyframes fillBar{
+    from{
+        width: 0%;
+    }
+    to{
+        width: var(--width);
+    }
+}
+
+.see{
+    display: inline-block;
+    padding: 10px 6px;
+    border: #E1B168 1px solid;
+    color: #E1B168;
+    transition: 0.3s;
+    font-size: 14px;
+}
+.see:hover{
+    background-color: #E1B168;
+    color: #aaa;
+}
+
+.paragraph p{
+    font-family: cursive;
+    text-align: left;
+    font-size: 15px;
+}
+.best-chef-pic img{
+    width: 370px;
+    height: 450px;
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+.paragraph{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.paragraph h5{
+    margin-bottom: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-bottom: #E1B168 1px solid;
+    border-top: #E1B168 1px solid;
+    width: 7rem;
+}
+.paragraph h1{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* ********************RESERVATION****************************** */
+
+.background{
+    background-image: url(../images/homepage_images/reservation-bg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 40px;
+    border-radius: 4px;
+    width: 60%;
+    height: 63%;
+    color: #fff;
+    text-align: center;
+}
+.form-container h4{
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #ccc;
+    margin-bottom: 10px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: 7%;
+}
+.form-container h2{
+    margin-bottom: 30px;
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.form-row input{
+    flex: 1;
+    width: 50px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #f0f0f0;
+}
+
+/* ***********************FOOTER************************** */
+.footer{
+    background-color: #292E36;
+    color: #fff;
+    padding: 50px 20px 30px;
+}
+.upper-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.footer-column h4{
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+.middle-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.middle-footer h4{
+    font-size: 16px;
+    border-bottom: 1px solid #E1B168;
+    border-top: 1px solid #E1B168;
+}
+#cnt{
+    margin-right: 12%;
+}
+.middle-footer p{
+    font-family: serif;
+    font-size: 18px;
+    margin-right: 90px;
+    text-align: justify;
+}
+.btn-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8px;
+}
+.subscribe-form input{
+    padding: 9px 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    font-size: 17px;
+}
+.subscribe-form button{
+    padding: 9px 10px;
+    margin: 0;
+}
+.contact-f{
+    font-size: 18px;
+}
+.hours{
+    font-size: 18px;
+}
+.color{
+    color: #E1B168;
+}
+.footer-bottom{
+    border-top: 2px solid #333;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 5px;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}

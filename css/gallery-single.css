@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #292E36;
+    height: 33pc;
+    
+}
+/******header-div1**********/
+#header-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+#call{
+    border: 2px solid #E1B168;
+    color: white;
+    width: 222px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#reservation{
+    background-color: #E1B168;
+    padding: 15px 15px 15px 15px;
+    margin-left: 20px;
+    width: 222px;
+    font-size: 20px;
+    height: 68px;
+}
+#cart{
+    display: flex;
+}
+#logo{
+    margin-bottom: 30px;
+}
+/********************************** hover******************* */
+button:hover{
+    background-color: #fff8f0;
+}
+
+
+/********header-div2*********/
+#header-div2{
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 81px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+/* *****************header-div3******************************** */
+#header-div3{
+    height: 10pc;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff8f0;
+    text-align: center;
+}
+#header-div3 h1{
+    margin-top: 68px;
+    font-size: 40px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 240px;
+    margin-left: 38%;
+    font-weight: 500;
+    margin-bottom: 15pc;
+}
+
+/* *****************SECTION 1********************** */
+
+.container{
+    margin: 60px auto;
+    padding: 0 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    height: auto;
+    padding-left: 100px;
+}
+.card img{
+    width: 550px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-right: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+    .card img:hover{
+        transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    }
+.card-content{
+    max-width: 450px;
+    height: 200px;
+    padding-top: 10px;
+}
+.card-content h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #222;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.card-content p{
+    margin-bottom: 19px;
+    font-size: 16px;
+}
+span{
+    text-transform: uppercase;
+}
+.Social-media img{
+    height: 70%;
+    width: 70%
+}
+.Social-media{
+    display: flex;
+    gap: 10px;
+}
+
+/* ********************RESERVATION************************* */
+.background{
+    background-color: #292E36;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    padding-top: 6%;
+}
+.form-container{
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 2px;
+    width: 70%;
+    height: 64%;
+    color: #fff;
+    text-align: center;
+    border: #555555 2px solid;
+}
+.form-container h4{
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #ccc;
+    margin-bottom: 10px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: 7%;
+}
+.form-container h2{
+    margin-bottom: 30px;
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.form-row input{
+    flex: 1;
+    width: 50px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #f0f0f0;
+}
+
+/* **********************IG GALLERY SECTION 3**************************** */
+
+.gallery-section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.subtitle{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+    border-top: #E1B168 1px solid;
+    border-bottom: #E1B168 1px solid;
+    width: 80px;
+    margin-left: 47%;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.gallery img{
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery .small{
+    height: 90px;
+    margin-top: 22px;
+}
+
+/* ***********************FOOTER************************** */
+.footer{
+    background-color: #292E36;
+    color: #fff;
+    padding: 50px 20px 30px;
+}
+.upper-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.footer-column h4{
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+.middle-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.middle-footer h4{
+    font-size: 16px;
+    border-bottom: 1px solid #E1B168;
+    border-top: 1px solid #E1B168;
+}
+#cnt{
+    margin-right: 12%;
+}
+.middle-footer p{
+    font-family: serif;
+    font-size: 18px;
+    margin-right: 90px;
+    text-align: justify;
+}
+.btn-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8px;
+}
+.subscribe-form input{
+    padding: 9px 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    font-size: 17px;
+}
+.subscribe-form button{
+    padding: 9px 10px;
+    margin: 0;
+}
+.contact-f{
+    font-size: 18px;
+}
+.hours{
+    font-size: 18px;
+}
+.color{
+    color: #E1B168;
+    text-transform: lowercase;
+}
+.footer-bottom{
+    border-top: 2px solid #333;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 5px;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
